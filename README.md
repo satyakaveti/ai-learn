@@ -14,8 +14,9 @@ A comprehensive learning path to master AI development, from fundamentals to adv
 | **3** | **Prompt Engineering** | [DeepLearning.AI — ChatGPT Prompt Engineering](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information)<br><br>**🎯 Project 1:** Simple LLM-powered app using the OpenAI/Anthropic API | ✅ Completed |
 | **4** | **RAG + Vector DB** | [DeepLearning.AI — LangChain: Chat with Your Data](https://learn.deeplearning.ai/courses/langchain-chat-with-your-data)<br><br>**🎯 Project 2:** RAG chatbot over your own documents (Python or Spring AI/Java) | ✅ Completed |
 | **5** | **Agentic AI Concepts** | [DeepLearning.AI — Agentic AI](https://learn.deeplearning.ai/courses/agentic-ai?startTime=3) | ✅ Completed |
-| **6** | **LangGraph** | [DeepLearning.AI — AI Agents in LangGraph](https://www.deeplearning.ai/courses/ai-agents-in-langgraph)<br><br>**🎯 Project 3:** Multi-step research/task agent | ☐ Not Started |
-| **7** | **MCP (Model Context Protocol)** | [MCP Introduction](https://modelcontextprotocol.io/introduction)<br><br>**🎯 Project 4:** MCP tool server<br><br>[DeepLearning.AI — MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) | ☐ Not Started |
+| **6** | **MCP (Model Context Protocol)** | [MCP Introduction](https://modelcontextprotocol.io/introduction)<br><br>**🎯 Project 4:** MCP tool server<br><br>[DeepLearning.AI — MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) | ☐ Not Started |
+| **7** | **LangGraph** | [DeepLearning.AI — AI Agents in LangGraph](https://www.deeplearning.ai/courses/ai-agents-in-langgraph)<br><br>**🎯 Project 3:** Multi-step research/task agent | ☐ Not Started |
+
 | **8** | **CrewAI (optional)** | [DeepLearning.AI — Multi-AI Agent Systems with CrewAI](https://www.deeplearning.ai/courses/multi-ai-agent-systems-with-crewai) | ☐ Not Started |
 | **9** | **Portfolio Polish** | Package Projects 1–4 + one Java/Spring AI-based project to differentiate from Python-only candidates | ☐ Not Started |
 | **10** | **Bonus: Mastering RAG** | [CognitiveClass — Mastering RAG](https://cognitiveclass.ai/learn/mastering-rag-build-smart-data-driven-application) | ☐ Not Started |
