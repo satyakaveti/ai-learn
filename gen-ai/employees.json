@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "tenure_years": 2,
+    "achievement": "developed a high-performance API that reduced response time by 40%"
+  },
+  {
+    "name": "Priya Reddy",
+    "role": "Senior Backend Engineer",
+    "department": "Engineering",
+    "tenure_years": 5,
+    "achievement": "led the migration of legacy services to microservices"
+  },
+  {
+    "name": "Rahul Verma",
+    "role": "DevOps Engineer",
+    "department": "Infrastructure",
+    "tenure_years": 3,
+    "achievement": "automated CI/CD pipelines reducing deployment time by 70%"
+  },
+  {
+    "name": "Ishita Roy",
+    "role": "Data Analyst",
+    "department": "AI & Analytics",
+    "tenure_years": 2,
+    "achievement": "created executive dashboards for business insights"
+  },
+  {
+    "name": "Naveen Kumar",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "tenure_years": 3,
+    "achievement": "implemented secure authentication services"
+  },
+  {
+    "name": "Keerthi Srinivas",
+    "role": "QA Engineer",
+    "department": "Quality Assurance",
+    "tenure_years": 2,
+    "achievement": "reduced production defects by 35%"
+  },
+  {
+    "name": "Mohit Arora",
+    "role": "DevOps Engineer",
+    "department": "Infrastructure",
+    "tenure_years": 4,
+    "achievement": "containerized legacy applications using Docker"
+  },
+  {
+    "name": "Sahana Rao",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "tenure_years": 1,
+    "achievement": "developed internal productivity tools"
+  }
+]
