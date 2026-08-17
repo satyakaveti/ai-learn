@@ -35,6 +35,24 @@ A comprehensive learning path to master AI development, from fundamentals to adv
 
 ---
 
+
+
+## 🎯 Tools Summary
+### GEN-API
+---
+#### ollama Tool
+
+```
+#Shows list of available LLMs in Local
+ollama list
+
+#Shows list of available LLMs in Local
+ollama serve
+```
+
+
+
+
 ## 📈 Progress Tracking
 
 - **Total Topics:** 11

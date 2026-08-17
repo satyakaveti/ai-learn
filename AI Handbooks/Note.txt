@@ -1,1 +1,5 @@
+#Shows list of available LLMs in Local
+ollama list
 
+#Shows list of available LLMs in Local
+ollama serve
