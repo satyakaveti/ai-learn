@@ -39,6 +39,27 @@ def chunk_by_section(text: str, source: str) -> list[dict]:
         })
     return chunks
 
+# Fallback for PDFs (or any file without clean markdown headings) -
+# PDF text extraction loses "#" symbols, so section-based chunking won't work.
+def chunk_by_words(text: str, source: str, max_words: int = 150) -> list[dict]:
+    words = text.split()
+    chunks = []
+    for i in range(0, len(words), max_words):
+        piece = " ".join(words[i:i + max_words])
+        chunks.append({
+            "text": piece,
+            "title": f"Chunk {i // max_words + 1}",
+            "source": source,
+        })
+    return chunks
+
+def chunk_document(text: str, source: str) -> list[dict]:
+    has_markdown_headings = bool(re.search(r"^#{1,3}\s", text, flags=re.MULTILINE))
+    if source.lower().endswith(".md") and has_markdown_headings:
+        return chunk_by_section(text, source)
+    else:
+        return chunk_by_words(text, source)
+
 # --- Step 3: Embeddings (Section 5) ---
 def embed(text: str) -> list[float]:
     response = requests.post(
@@ -68,7 +89,12 @@ def index_document():
         print(f"Collection already has {collection.count()} chunks. Skipping re-index.\n")
         return
     raw_text = load_document(DOC_PATH)
-    chunks = chunk_by_section(raw_text, source=DOC_PATH)
+    if not raw_text.strip():
+        raise ValueError(
+            f"No text could be extracted from {DOC_PATH}. "
+            "If it's a scanned PDF (images, not selectable text), it needs OCR first."
+        )
+    chunks = chunk_document(raw_text, source=DOC_PATH)
     collection.add(
         ids=[f"chunk_{i}" for i in range(len(chunks))],
         embeddings=[embed(c["text"]) for c in chunks],
