@@ -6,7 +6,7 @@ OLLAMA_GENERATE_URL = "http://localhost:11434/api/generate"
 OLLAMA_EMBED_URL = "http://localhost:11434/api/embeddings"
 GEN_MODEL = "gemma2:2b"
 EMBED_MODEL = "nomic-embed-text"
-DOC_PATH = "Amazon Refund policy.pdf"
+DOC_PATH = "/Users/satyakaveti/Code/Workspace/ai-python/rag/Amazon Refund policy.pdf"
 
 # --- Step 1: Document loading (Section 3) - handles both .md and .pdf ---
 def load_document(path: str) -> str:
