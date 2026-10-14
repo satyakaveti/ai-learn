@@ -1,6 +1,11 @@
+
+
+
 # Spring AI Handbook — Final Table of Contents
 
 **AI for Backend Developers**
+<img width="1400" height="874" alt="image" src="https://github.com/user-attachments/assets/4101647a-b1e7-410d-973a-a5946a4d2005" />
+
 
 > Simplifying AI Integration for Java Applications
 
